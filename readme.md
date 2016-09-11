@@ -1,5 +1,6 @@
 # Coxmaker (Coxtable)
 
+Coxmaker is a simple tool designed to help shareholders determine their percentage distribution and ratio in an even manner.
 
 ## Requirements
 
