@@ -26,7 +26,7 @@
 <body>
 <div class="container">
 <br>
-    <nav class="navbar navbar-default">
+<div class="row">    <nav class="navbar navbar-default">
         <div class="container-fluid">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -44,13 +44,11 @@
               </ul>
           </div>
         </div><!--/.container-fluid -->
-      </nav>
-</div>
+      </nav></div>
 
 
 @section('breadcrumb', 'Blade')
 
-<div class="container">
 	<!-- Begin: Content -->
 	@yield('content')
 	<!--  End: Content -->
