@@ -15,6 +15,13 @@
              <div class="col-md-6 justify"><br><input type="text" name="projectname" onfocus="this.value = ''" class="form-control btn-lg" ng-model="t.name"></div>
            </div>
            <br><br>
+           <p class="bg-primary text-center">
+           <br>
+             First, add the projects, then add the selection panel (or partners) that will determine the ratios. After this input, Coxmaker will send out an email to all parties for them to submit their scores; once all scoring is over the system will calculate the right distribution. 
+             <br>
+             <br>
+           </p>
+           <br><br>
            @if (count($errors) > 0)
     <div class="alert alert-danger">
         <ul>
